@@ -19,7 +19,7 @@ kubectl apply -f certificate.yml
 
 ```sh
 helm repo add bitnami https://charts.bitnami.com/bitnami
-helm upgrade —install keycloak —namespace keycloak bitnami/keycloak —reuse-values -f keycloak-values.yml
+helm upgrade --install keycloak --namespace keycloak bitnami/keycloak --reuse-values -f keycloak-values.yml
 ```
 
 ### Configure API Server
