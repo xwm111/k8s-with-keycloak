@@ -3,6 +3,10 @@ OIDC Kubernetes Authentication with Keycloak
 
 ### pre install cert-manager in your cluster
 
+```sh
+kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.16.2/cert-manager.yaml
+```
+
 ### Create CA, Issuer and Keycloak Certificate
 
 ```sh
